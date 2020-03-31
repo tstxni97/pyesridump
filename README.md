@@ -1,4 +1,4 @@
-esri-dump
+(FORKED) esri-dump
 =========
 
 Scrapes an Esri REST endpoint and writes a GeoJSON file.
@@ -10,7 +10,7 @@ If you just want to use the command line tool `esri2geojson`, the recommended wa
 ```
 virtualenv esridump
 source esridump/bin/activate
-pip install esridump
+pip install git+git://github.com/tstxni97/pyesridump.git
 ```
 
 ## Usage
